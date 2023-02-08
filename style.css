@@ -6,32 +6,48 @@ body {
   line-height: 25px;
   font-weight: lighter;
 }
-h1, h2, h3 {
+h1, h2 {
   color: #6B72E1;
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
   line-height: 40px;
 }
+h3 {
+  color: deeppink;
+  font-size: medium;
+}
+
+img {
+  margin-top: 40px;
+  align-self: center;
+}
+
 .container {
   width: 800px;
   margin: 0 auto;
-  text-align: center;
+  /* text-align: center; */
   background: fixed;
   background-color: #B5F1CC;
   border: 100px;
   border-radius: 50px;
-  box-shadow: 10px;
+  box-shadow: 10px, 50px, black;
 }
 
 .welcome-card {
-  color: rgb(93, 41, 141);
+  margin: 100px;
+  background-color: #A61F69;
+  /* color: rgb(93, 41, 141); */
   align-self: center;
+  height: 300px;
   /* width: 400px; */
 }
 
 .link-card {
-  color: #6B72E1;
+  background-color: darkmagenta;
+  /* color: #6B72E1; */
   align-content: center;
+  margin-bottom: 50px;
+  /* margin-top: 200px; */
 }
 
 .text-centre {
@@ -39,6 +55,7 @@ h1, h2, h3 {
 }
 .img-circle {
   border-radius: 50%;
+  margin: 100px;
 }
 a {
   font-family: 'Roboto', sans-serif;
